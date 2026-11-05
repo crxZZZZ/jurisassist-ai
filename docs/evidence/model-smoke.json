@@ -1,0 +1,101 @@
+[
+  {
+    "id": "L01",
+    "seconds": 35.01,
+    "answer": {
+      "status": "answered",
+      "summary": "A definição de empregador na CLT é estabelecida no artigo 2º.",
+      "claims": [
+        {
+          "text": "O artigo 2º da CLT define empregador como a empresa, individual ou coletiva, que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviço.",
+          "citation_ids": [
+            "684c4a92-c2ed-45e3-90df-66a2c917b800"
+          ]
+        },
+        {
+          "text": "O artigo 2º também equipara ao empregador, para os efeitos exclusivos da relação de emprego, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos que admitirem trabalhadores como empregados.",
+          "citation_ids": [
+            "684c4a92-c2ed-45e3-90df-66a2c917b800"
+          ]
+        }
+      ],
+      "questions": [],
+      "citations": [
+        {
+          "id": "684c4a92-c2ed-45e3-90df-66a2c917b800",
+          "document_id": "2343ce0a-f740-444a-a5ff-2ce9a5135226",
+          "title": "CLT · Consolidação das Leis do Trabalho",
+          "locator": "Art. 2 · trecho 2",
+          "text": "Art. 2º - Considera-se empregador a empresa, individual ou coletiva, que, assumindo os\r\nriscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de\r\nserviço.\n§ 1º - Equiparam-se ao empregador, para os efeitos exclusivos da relação de emprego, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos, que admitirem trabalhadores como empregados.",
+          "kind": "law",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452compilado.htm",
+          "version": "718cc1042115",
+          "collected_at": "2026-10-23T15:07:52.155116",
+          "checked_at": null
+        }
+      ],
+      "basis": {
+        "indexed_sources": 3,
+        "expected_sources": 3,
+        "pending_update": false,
+        "stale": true,
+        "warning": "Confira a data das fontes antes de usar a resposta."
+      },
+      "model": "qwen3:4b",
+      "prompt_version": "v2"
+    }
+  },
+  {
+    "id": "L25",
+    "seconds": 30.07,
+    "answer": {
+      "status": "answered",
+      "summary": "A contratante é subsidiariamente responsável pelas obrigações trabalhistas durante a prestação de serviços, conforme a Lei nº 6.019/1974.",
+      "claims": [
+        {
+          "text": "A contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período em que ocorrer a prestação de serviços, e o recolhimento das contribuições previdenciárias observará o disposto no art. 31 da Lei nº 8.212, de 24 de julho de 1991.",
+          "citation_ids": [
+            "5ce13911-c409-438d-b017-557b5314470b",
+            "075c0361-ccca-44d8-94fc-ccbdcb209bb7"
+          ]
+        }
+      ],
+      "questions": [],
+      "citations": [
+        {
+          "id": "5ce13911-c409-438d-b017-557b5314470b",
+          "document_id": "3d13d0a4-61ed-4b37-9295-98f71487b365",
+          "title": "Lei nº 6.019/1974 · Trabalho temporário e terceirização",
+          "locator": "Art. 5-A · trecho 6",
+          "text": "Art. 5 o -A. Contratante é a pessoa \r\nfísica ou jurídica que celebra contrato com empresa de prestação de serviços \r\nrelacionados a quaisquer de suas atividades, inclusive sua atividade principal. (Redação dada pela \r\n Lei nº 13.467, de 2017)\n§ 5 o A empresa contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período em que ocorrer a prestação de serviços, e o recolhimento das contribuições previdenciárias observará o disposto no art. 31 da Lei n o 8.212, de 24 de julho de 1991 . (Incluído pela Lei nº 13.429, de 2017)",
+          "kind": "law",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l6019.htm",
+          "version": "eabab8e5ac41",
+          "collected_at": "2026-10-23T15:09:58.696465",
+          "checked_at": null
+        },
+        {
+          "id": "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+          "document_id": "3d13d0a4-61ed-4b37-9295-98f71487b365",
+          "title": "Lei nº 6.019/1974 · Trabalho temporário e terceirização",
+          "locator": "Art. 10 · trecho 7",
+          "text": "Art. \r\n 10. Qualquer que seja o ramo da empresa tomadora de serviços, não existe \r\n vínculo de emprego entre ela e os trabalhadores contratados pelas empresas \r\n de trabalho temporário. (Redação dada pela Lei \r\n nº 13.429, de 2017)\n§ 7 o A contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período em que ocorrer o trabalho temporário, e o recolhimento das contribuições previdenciárias observará o disposto no art. 31 da Lei nº 8.212, de 24 de julho de 1991 . (Incluído pela Lei nº 13.429, de 2017)",
+          "kind": "law",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l6019.htm",
+          "version": "eabab8e5ac41",
+          "collected_at": "2026-10-23T15:09:58.696465",
+          "checked_at": null
+        }
+      ],
+      "basis": {
+        "indexed_sources": 3,
+        "expected_sources": 3,
+        "pending_update": false,
+        "stale": true,
+        "warning": "Confira a data das fontes antes de usar a resposta."
+      },
+      "model": "qwen3:4b",
+      "prompt_version": "v2"
+    }
+  }
+]

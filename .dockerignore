@@ -1,0 +1,10 @@
+.git
+.venv
+.tools
+.env
+data
+reports
+frontend
+tests
+__pycache__
+*.log

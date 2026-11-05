@@ -1,0 +1,968 @@
+{
+  "id": "20261023T162212-258346b7",
+  "created_at": "2026-10-23T16:22:12.649750",
+  "mode": "hybrid",
+  "prompt_version": "v1",
+  "model": "qwen3:4b",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+  "prompt_sha256": "2e9cd5940e24633c35f9874d1f71ab104204eab10942e81f04d07138fe45fc35",
+  "corpus": [
+    {
+      "source_id": "clt",
+      "checksum": "718cc1042115efe736dc016262709cb9eab74e6d1832481ba497b5a229399fc4",
+      "parser": "legal-html-v2",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    },
+    {
+      "source_id": "terceirizacao",
+      "checksum": "eabab8e5ac41bfaa78ff3f75a9515745a1ca8b4a322ba3ef9217945a7f13b4f5",
+      "parser": "legal-html-v2",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    },
+    {
+      "source_id": "codigo-civil",
+      "checksum": "4408bed8560f280f6ddeaa3346579b494c783f3261f391fcdf8898117fd0b65b",
+      "parser": "legal-html-v2",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  ],
+  "retrieval_revision": "bm25-pt-rrf-1.5-diverse-v1",
+  "generation": false,
+  "inventory_cases": 80,
+  "evaluated": 55,
+  "generation_cases": 0,
+  "retrieval_cases": 55,
+  "recall_at_5": 0.9090909090909091,
+  "retrieval_target_met": true,
+  "p50_seconds": 0.16,
+  "p95_seconds": 0.265,
+  "parameters": {
+    "temperature": 0,
+    "num_ctx": 8192,
+    "num_predict": 2200
+  },
+  "manual_review_status": "pending",
+  "cases": [
+    {
+      "id": "L01",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "684c4a92-c2ed-45e3-90df-66a2c917b800",
+        "723566ef-b909-47f5-8e08-13ad0f7c7d72",
+        "f2847004-b1d3-4d94-ae1a-ab36770face6",
+        "0190452c-138c-464f-bf17-b26f1b029e44",
+        "8fd3091d-1d4a-4dc2-bc82-98e61afb5f30"
+      ],
+      "duration_seconds": 0.338
+    },
+    {
+      "id": "L02",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "684c4a92-c2ed-45e3-90df-66a2c917b800",
+        "203d67dd-8ebb-45d6-acc9-ec839e045469",
+        "f2847004-b1d3-4d94-ae1a-ab36770face6",
+        "a479d362-f2d8-436e-92a3-96d66bb0f576",
+        "7b2b2830-3d59-47d2-95b3-f7d7b92a256b"
+      ],
+      "duration_seconds": 0.101
+    },
+    {
+      "id": "L03",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "d8437a93-150e-493b-a562-3c6a20054abc",
+        "a64ea961-0543-4a52-82d2-38ca418c7853",
+        "1e1feb7c-6432-47cd-bd8f-977a30c54004",
+        "9e1d7aa7-8d2d-464d-814f-6a0544b3d3bd",
+        "17bff0c1-2f9a-47e1-9922-94e69e9c65d9"
+      ],
+      "duration_seconds": 0.109
+    },
+    {
+      "id": "L04",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": false,
+      "retrieved_ids": [
+        "acdf6c52-afd5-45de-8d35-69a6dd59574f",
+        "bf3724a7-eab9-45bb-a9da-707896cc626e",
+        "cfddba6f-b408-470a-a885-b2c0d7bbcf2f",
+        "874b3612-3d34-41c1-8c7a-954e39913ede",
+        "53afb3d7-9729-4719-8bca-3d8dcf18605e"
+      ],
+      "duration_seconds": 0.286
+    },
+    {
+      "id": "L05",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "2e0da876-2027-4d75-8abf-de21618db4ba",
+        "045d2dbe-73ba-4447-9722-df25838cf778",
+        "498682c1-ed68-4be0-92a4-9bba836c7e7a",
+        "0d80297d-89dd-4690-b3d3-d4eaea71eacd",
+        "7bfb1faf-0cde-405a-b6bb-945b016c6777"
+      ],
+      "duration_seconds": 0.106
+    },
+    {
+      "id": "L06",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "639eecad-8b4f-47ca-8cd0-b38409e631f6",
+        "450c6e34-8014-404a-8432-5a8231399390",
+        "3d762921-c89b-4c17-bcbd-6d3d5a274113",
+        "224daa72-77d3-43e1-b404-22a228d76dc8",
+        "02c81898-a640-4030-b32b-336eb925fa8b"
+      ],
+      "duration_seconds": 0.108
+    },
+    {
+      "id": "L07",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "239b1b19-3675-4e9d-bceb-72379f063b2d",
+        "bcedcb18-1629-412d-9a4f-49abfb9f2cff",
+        "44b2fabd-7223-49e4-9498-6f5490bb0782",
+        "3d762921-c89b-4c17-bcbd-6d3d5a274113",
+        "33a8d936-13d8-4b20-a511-63a36f6f3bd9"
+      ],
+      "duration_seconds": 0.164
+    },
+    {
+      "id": "L08",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "00492a64-6778-46e7-9d2c-0cf5ebdfae8b",
+        "59bb62eb-a659-4e8b-85c6-3e13adb5dfa3",
+        "b62e85a1-6871-46d5-84f4-36740672f23f",
+        "0cfebd1c-af29-43e3-9da7-9caa2ba052e1",
+        "d87f79b7-36c7-4b7b-abcb-54f73b8d16d0"
+      ],
+      "duration_seconds": 0.325
+    },
+    {
+      "id": "L09",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "cb9c0353-fc84-4178-84b9-f07471eadf81",
+        "712210c3-4dda-4842-9551-8f3d49fcc058",
+        "c7894f6e-82e9-49ee-a60a-1755652461bf",
+        "d2af260f-aaa2-42ce-b327-b1ca8f7d5c31",
+        "bcedcb18-1629-412d-9a4f-49abfb9f2cff"
+      ],
+      "duration_seconds": 0.098
+    },
+    {
+      "id": "L10",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "464b9e43-f3bd-4eac-b591-add32edf078b",
+        "aaeac08f-5ade-4822-87cc-8a958452e1eb",
+        "ba40bafc-d1bf-44a3-baf6-48d12993ae7f",
+        "2e0da876-2027-4d75-8abf-de21618db4ba",
+        "88c87440-38d0-4241-be29-6b85b29b4b0b"
+      ],
+      "duration_seconds": 0.135
+    },
+    {
+      "id": "L11",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "d6d4d907-49c5-4268-9657-9962657dec44",
+        "03c473cd-f955-453b-9196-9030712d11ac",
+        "10697df2-ff86-41ec-8bba-80d840541311",
+        "092ee273-306c-4577-a62c-b1accb468e1e",
+        "5a9b7710-d773-4fba-918f-492d8554fb77"
+      ],
+      "duration_seconds": 0.265
+    },
+    {
+      "id": "L12",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "2e315193-bc85-46c6-9438-ffcbe5a78c62",
+        "0765a799-ae24-4519-83cb-ad2ce2b8bca6",
+        "fa080b1a-e465-4170-97bb-7f9cd5ac31bd",
+        "5a9b7710-d773-4fba-918f-492d8554fb77",
+        "092ee273-306c-4577-a62c-b1accb468e1e"
+      ],
+      "duration_seconds": 0.095
+    },
+    {
+      "id": "L13",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "c90a110c-8ef4-4dcd-8962-02186332d0e5",
+        "fb81da6f-c7f8-4665-ae28-632d9fd1780b",
+        "efa7a474-9db4-463f-8e00-b116fa90ffb1",
+        "fa080b1a-e465-4170-97bb-7f9cd5ac31bd",
+        "5a9b7710-d773-4fba-918f-492d8554fb77"
+      ],
+      "duration_seconds": 0.094
+    },
+    {
+      "id": "L14",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "90485182-92eb-4154-b357-3af0d73aee71",
+        "756ea3e6-b51b-4005-b09b-1fe48e1e001e",
+        "45a343ea-777b-4713-bfd2-4859f80d41a8",
+        "9c21b659-af77-41f9-95f9-b264ccf2d44f",
+        "092ee273-306c-4577-a62c-b1accb468e1e"
+      ],
+      "duration_seconds": 0.076
+    },
+    {
+      "id": "L15",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "092ee273-306c-4577-a62c-b1accb468e1e",
+        "e7042812-341e-413f-a6b5-eb8742e76c55",
+        "9c21b659-af77-41f9-95f9-b264ccf2d44f",
+        "f234e952-1031-45c5-aabc-850d1452ee3c",
+        "db99355a-6c73-4719-b0e7-894e300aaccf"
+      ],
+      "duration_seconds": 0.093
+    },
+    {
+      "id": "L16",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "9757d280-6c74-4585-80b6-c44d61100106",
+        "3c8351da-fd5c-4a5d-b9c6-67011ba8b915",
+        "18b06414-62a7-441c-9a73-42fa993da203",
+        "8827a456-14e4-4eb9-aee0-44fd679bb47e",
+        "951217b1-2e9d-43b4-aa9c-ac9feeb67308"
+      ],
+      "duration_seconds": 0.105
+    },
+    {
+      "id": "L17",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "18b06414-62a7-441c-9a73-42fa993da203",
+        "9757d280-6c74-4585-80b6-c44d61100106",
+        "116da777-7a85-4184-ba35-4f9ad2fa094b",
+        "03bf9029-1d21-4963-8dbc-6757cefa146c",
+        "630956bb-f682-43aa-ab39-1dec99eac88b"
+      ],
+      "duration_seconds": 0.13
+    },
+    {
+      "id": "L18",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "49ed9417-8fa1-4577-a6d1-cc3b07aa8982",
+        "4ba53833-1bf7-4d41-bb1d-75f7ebc6498a",
+        "160f1c6d-f481-4c53-9e83-34be37a6ec00",
+        "0bb0670e-3765-4ccc-840c-63a8e325e24a",
+        "22af8065-2458-4f10-a140-c9d859770fdc"
+      ],
+      "duration_seconds": 0.096
+    },
+    {
+      "id": "L19",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "be6fe0e0-af2c-4173-88c5-bab3297e3bac",
+        "27a0e54d-6713-46d7-980f-7b3301cd9fe5",
+        "8edd8f47-f71d-40fa-a8de-6add1283feff",
+        "7c367242-5d3a-4a8e-beb6-f0d8a0d902da",
+        "b587e7a1-13c3-4f1d-82dc-3958d7aa1830"
+      ],
+      "duration_seconds": 0.189
+    },
+    {
+      "id": "L20",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "a0673b44-8ccf-4f7c-a7c3-bd944877619c",
+        "abdee3df-6145-4c57-b225-8a3b298e9f28",
+        "dc724101-23ff-4d7e-a6ea-e6289ccf54ee",
+        "8be75d9e-3c60-4eb6-832e-09063d54a733",
+        "f49cf60b-1051-4aa1-8eaf-a994eba3a8fd"
+      ],
+      "duration_seconds": 0.138
+    },
+    {
+      "id": "L21",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "eea59abe-6761-4b25-afdc-bb5138549a8c",
+        "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "ebc8608a-a038-47b6-9d73-1986ee09c270",
+        "6ad30957-50d2-4b7b-b94f-bf54caff47aa"
+      ],
+      "duration_seconds": 0.217
+    },
+    {
+      "id": "L22",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "16b848df-b007-4312-93f1-a90c08a945d8",
+        "ebc8608a-a038-47b6-9d73-1986ee09c270",
+        "88c87440-38d0-4241-be29-6b85b29b4b0b",
+        "4dfa0798-9014-40fc-bee5-8cc31368ce31",
+        "ae6e52d5-b72c-4323-9940-ea9bb4b9fb84"
+      ],
+      "duration_seconds": 0.153
+    },
+    {
+      "id": "L23",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "2d5f0323-6d51-4c42-b6b7-ab4ba8e00018",
+        "333f2238-0650-4aa0-80fa-20960420ce5b",
+        "ca83cd75-6150-42ad-a9dd-fe5e0571bbed",
+        "738325a2-3f3d-4496-aa50-9d833802d329",
+        "df42f4d1-b4fa-4452-936b-2ccbdda20160"
+      ],
+      "duration_seconds": 0.118
+    },
+    {
+      "id": "L24",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "738325a2-3f3d-4496-aa50-9d833802d329",
+        "2d5f0323-6d51-4c42-b6b7-ab4ba8e00018",
+        "03bf9029-1d21-4963-8dbc-6757cefa146c",
+        "2fbd8566-c0f1-42f7-b14e-776ce0a57e98",
+        "383322ef-6493-49f9-854d-b5170bea4dd5"
+      ],
+      "duration_seconds": 0.107
+    },
+    {
+      "id": "L25",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "5ce13911-c409-438d-b017-557b5314470b",
+        "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+        "c4e68976-9a82-4810-9e85-e31251462de1",
+        "2d5f0323-6d51-4c42-b6b7-ab4ba8e00018",
+        "4c27f8e2-cb42-47e9-9c5e-87696c955ee0"
+      ],
+      "duration_seconds": 0.158
+    },
+    {
+      "id": "L26",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "46821f1c-90c6-4c2f-b8c5-8e6224d4e227",
+        "6fb153bd-6fd7-4f58-a8d4-794ad65f5e38",
+        "b7ff4e13-f88e-4154-aa40-c6e68af8583a",
+        "738325a2-3f3d-4496-aa50-9d833802d329",
+        "4a79e52a-cc39-4b49-801f-0c4c94f3d86d"
+      ],
+      "duration_seconds": 0.167
+    },
+    {
+      "id": "L27",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "ebc8608a-a038-47b6-9d73-1986ee09c270",
+        "c8ce54ae-5d08-4708-87cb-597e70782c65",
+        "4dfa0798-9014-40fc-bee5-8cc31368ce31",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941"
+      ],
+      "duration_seconds": 0.104
+    },
+    {
+      "id": "L28",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "7c367242-5d3a-4a8e-beb6-f0d8a0d902da",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "030eac64-d759-44cf-94af-1c599d9f1722",
+        "a40d8577-81b4-4b08-b3f7-d91f33f9b871",
+        "dcdad065-170c-4832-bea0-69b8a10aaedd"
+      ],
+      "duration_seconds": 0.176
+    },
+    {
+      "id": "L29",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "ebc8608a-a038-47b6-9d73-1986ee09c270",
+        "c8ce54ae-5d08-4708-87cb-597e70782c65",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "6ad30957-50d2-4b7b-b94f-bf54caff47aa"
+      ],
+      "duration_seconds": 0.104
+    },
+    {
+      "id": "L30",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "d9774574-3186-4b61-85f8-a4bf4c310145",
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "c8ce54ae-5d08-4708-87cb-597e70782c65",
+        "17bff0c1-2f9a-47e1-9922-94e69e9c65d9"
+      ],
+      "duration_seconds": 0.16
+    },
+    {
+      "id": "L31",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "6ad30957-50d2-4b7b-b94f-bf54caff47aa",
+        "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+        "4c27f8e2-cb42-47e9-9c5e-87696c955ee0",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "7c4cf736-f097-47c5-b49c-6ccca6745b2a"
+      ],
+      "duration_seconds": 0.208
+    },
+    {
+      "id": "L32",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "9e24093b-9a3f-4851-9a71-574cbba017c4",
+        "c8ce54ae-5d08-4708-87cb-597e70782c65",
+        "6ad30957-50d2-4b7b-b94f-bf54caff47aa",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "ebc8608a-a038-47b6-9d73-1986ee09c270"
+      ],
+      "duration_seconds": 0.238
+    },
+    {
+      "id": "L33",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "57e33704-f179-4714-8fc9-1c07eafd4aaf",
+        "7e2c908c-e593-4ff0-9537-99a976a2e3b1",
+        "6b078d51-4579-4c1e-8a74-12bc44a1933d",
+        "2f4b4abe-2e91-4301-bb63-7ef99b73e38a",
+        "18b5349a-c75d-414d-aa08-4743e1be4b07"
+      ],
+      "duration_seconds": 0.261
+    },
+    {
+      "id": "L34",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "e469ac58-a4f2-41a8-bcdb-5fc5c75a51d0",
+        "d6346a5c-b8b4-4266-9718-7d686818a3cb",
+        "ca7ca3e5-7227-4a4b-9e51-f828a16bca9c",
+        "9d141c19-3ad4-4a3e-840e-b32b41a0d4da",
+        "797a00af-bc83-4af2-a516-f2e972da5f70"
+      ],
+      "duration_seconds": 0.151
+    },
+    {
+      "id": "L35",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "c7b20e19-b3b2-4e8f-b593-7ecf21d5ae30",
+        "1448c77d-e492-4433-b8e0-29efbda7d174",
+        "dba14d4b-6fa1-4ea2-8ba7-17dcbe7d6c87",
+        "bc252761-f597-4c15-90ab-8bcdc75ffd1a",
+        "9d141c19-3ad4-4a3e-840e-b32b41a0d4da"
+      ],
+      "duration_seconds": 0.103
+    },
+    {
+      "id": "L36",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "b210df04-81c1-4132-99eb-975afc181d16",
+        "097d61f6-9791-452a-b13d-d2e8cc10d28b",
+        "d32768d4-5177-463e-b37c-f67a506d8032",
+        "6b078d51-4579-4c1e-8a74-12bc44a1933d",
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb"
+      ],
+      "duration_seconds": 0.17
+    },
+    {
+      "id": "L37",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "097d61f6-9791-452a-b13d-d2e8cc10d28b",
+        "f49cff11-d37d-43eb-9f41-75276022a8bc",
+        "b210df04-81c1-4132-99eb-975afc181d16",
+        "3cff5186-d153-423a-8e2d-6ecb2d26e213",
+        "2c19b131-20d9-4c14-af6b-f0ad865eb779"
+      ],
+      "duration_seconds": 0.229
+    },
+    {
+      "id": "L38",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "9d141c19-3ad4-4a3e-840e-b32b41a0d4da",
+        "9b61c9e8-2dc2-4764-82cb-95f71ee8e814",
+        "fe5e4621-67f8-4487-b285-aaeb35cdd466",
+        "5e4dd1ef-38ae-4fc3-bca4-95f0379c962a",
+        "99877e24-66cc-48a5-a9a5-82142f200cfc"
+      ],
+      "duration_seconds": 0.162
+    },
+    {
+      "id": "L39",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "363aaba2-7694-48e4-b992-19aa68e1ee96",
+        "03bf9029-1d21-4963-8dbc-6757cefa146c",
+        "aaeac08f-5ade-4822-87cc-8a958452e1eb",
+        "5ce13911-c409-438d-b017-557b5314470b",
+        "3f5677b8-c822-4e2f-b34c-fb4544455cbb"
+      ],
+      "duration_seconds": 0.169
+    },
+    {
+      "id": "L40",
+      "category": "legal",
+      "manual_review": "pending",
+      "retrieval_hit": false,
+      "retrieved_ids": [
+        "b7ff4e13-f88e-4154-aa40-c6e68af8583a",
+        "36a50a38-6987-4c8a-bff2-ae45cca2e5af",
+        "2abcd9e6-a832-4be8-9f66-41c4f8f09823",
+        "fd6b24e1-e716-424f-9e7f-ebb5121c320d",
+        "27a0e54d-6713-46d7-980f-7b3301cd9fe5"
+      ],
+      "duration_seconds": 0.229
+    },
+    {
+      "id": "C01",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": false,
+      "retrieved_ids": [
+        "5d97a95d-8d60-4e97-97e7-5c456f33cc35",
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "cbf6989e-cdf4-44e9-82a0-3a36fd5b570f",
+        "4c27f8e2-cb42-47e9-9c5e-87696c955ee0",
+        "097d61f6-9791-452a-b13d-d2e8cc10d28b"
+      ],
+      "duration_seconds": 0.18
+    },
+    {
+      "id": "C02",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": false,
+      "retrieved_ids": [
+        "56035e25-292b-4fb2-b371-41f5b93babd8",
+        "5c062ccf-1fc1-4a28-bb5c-5f84ef26cbfb",
+        "d6031c95-9d4f-459e-a2ae-a4d214d2fbc6",
+        "6a4a7820-6231-412a-b66e-c14dd03b2332",
+        "34d0b810-3c5f-4600-bfd7-cbbdae6fcae9"
+      ],
+      "duration_seconds": 0.249
+    },
+    {
+      "id": "C03",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": false,
+      "retrieved_ids": [
+        "13559c86-8392-4c9f-9943-f2e2cca912f9",
+        "ad3ba335-79d1-446a-809c-f7ccc1adceba",
+        "57ac2530-16bc-4a45-b10f-6d727d6b28e1",
+        "98649761-f580-471d-aa68-c5661679fcb1",
+        "8fd3091d-1d4a-4dc2-bc82-98e61afb5f30"
+      ],
+      "duration_seconds": 0.245
+    },
+    {
+      "id": "C04",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "e73643dc-6f95-437f-8184-c0b1fda995ad",
+        "8630c0f2-c0e8-4e4a-be1d-4fa4f6280a91",
+        "2abcd9e6-a832-4be8-9f66-41c4f8f09823",
+        "13559c86-8392-4c9f-9943-f2e2cca912f9",
+        "042918e4-21df-482e-9d88-9534d271366a"
+      ],
+      "duration_seconds": 0.169
+    },
+    {
+      "id": "C05",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "2675c89c-a9ad-46c7-9363-62fa6412936d",
+        "03bf9029-1d21-4963-8dbc-6757cefa146c",
+        "4c27f8e2-cb42-47e9-9c5e-87696c955ee0",
+        "a08a5644-74e3-4bfe-93ab-0e530bef3fa3",
+        "69877d36-bd9c-409c-bd58-cdf4def17206"
+      ],
+      "duration_seconds": 0.238
+    },
+    {
+      "id": "C06",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "f011b5bb-133c-41a5-bcfd-ffdb21e8d4b7",
+        "16b848df-b007-4312-93f1-a90c08a945d8",
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "152f33b7-2ba9-4bd1-bbe1-8ac3cfea5170",
+        "c8ce54ae-5d08-4708-87cb-597e70782c65"
+      ],
+      "duration_seconds": 0.098
+    },
+    {
+      "id": "C07",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "00492a64-6778-46e7-9d2c-0cf5ebdfae8b",
+        "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+        "9e24093b-9a3f-4851-9a71-574cbba017c4",
+        "054ec86f-bf9f-44c8-bca4-7e956f5ab5f4"
+      ],
+      "duration_seconds": 0.161
+    },
+    {
+      "id": "C08",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "7c367242-5d3a-4a8e-beb6-f0d8a0d902da",
+        "a40d8577-81b4-4b08-b3f7-d91f33f9b871",
+        "c4de63f7-ca88-4cec-85ba-c2e918bc6941",
+        "9e24093b-9a3f-4851-9a71-574cbba017c4",
+        "030eac64-d759-44cf-94af-1c599d9f1722"
+      ],
+      "duration_seconds": 0.138
+    },
+    {
+      "id": "C09",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "9e24093b-9a3f-4851-9a71-574cbba017c4",
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "e20f4dc8-77a7-4761-9d13-7c56f02aa253",
+        "ebc8608a-a038-47b6-9d73-1986ee09c270",
+        "1cafe1d0-d0bd-4d23-a777-21a8f97fc2e8"
+      ],
+      "duration_seconds": 0.162
+    },
+    {
+      "id": "C10",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "ebc8608a-a038-47b6-9d73-1986ee09c270",
+        "667867fb-61b3-4860-9c3b-7aec5cb862cb",
+        "152f33b7-2ba9-4bd1-bbe1-8ac3cfea5170",
+        "e20f4dc8-77a7-4761-9d13-7c56f02aa253",
+        "c8ce54ae-5d08-4708-87cb-597e70782c65"
+      ],
+      "duration_seconds": 0.169
+    },
+    {
+      "id": "C11",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "b210df04-81c1-4132-99eb-975afc181d16",
+        "097d61f6-9791-452a-b13d-d2e8cc10d28b",
+        "5d97a95d-8d60-4e97-97e7-5c456f33cc35",
+        "84a0320b-b4a3-42d1-9e85-0e0cc529873b",
+        "9de2d6b2-4943-4b58-915f-9ade908e57b8"
+      ],
+      "duration_seconds": 0.141
+    },
+    {
+      "id": "C12",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "097d61f6-9791-452a-b13d-d2e8cc10d28b",
+        "b210df04-81c1-4132-99eb-975afc181d16",
+        "f49cff11-d37d-43eb-9f41-75276022a8bc",
+        "f0b37fde-86ba-4def-81d5-3a76c94ce6cb",
+        "a0673b44-8ccf-4f7c-a7c3-bd944877619c"
+      ],
+      "duration_seconds": 0.155
+    },
+    {
+      "id": "C13",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "46a6bb0f-81dd-4407-a936-93fa68a6db57",
+        "988dcc8a-c3db-497f-8a76-73345e4c27b6",
+        "1edf04ca-e519-46c1-ad7f-ef5a24cb2b9b",
+        "b7ff4e13-f88e-4154-aa40-c6e68af8583a",
+        "68ab06fb-1374-4c50-9e15-4fc8d623f439"
+      ],
+      "duration_seconds": 0.169
+    },
+    {
+      "id": "C14",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "c7b20e19-b3b2-4e8f-b593-7ecf21d5ae30",
+        "bb129167-3c8c-4665-876f-110ac9d951a1",
+        "cdcdc95d-1bd7-40c3-bee8-261f58a03993",
+        "aeb018c9-4778-4206-a58c-2f253e402581",
+        "1f9353bb-57fe-4d6f-b3c1-47715fd4c9af"
+      ],
+      "duration_seconds": 0.181
+    },
+    {
+      "id": "C15",
+      "category": "contract",
+      "manual_review": "pending",
+      "retrieval_hit": true,
+      "retrieved_ids": [
+        "27a0e54d-6713-46d7-980f-7b3301cd9fe5",
+        "3f5677b8-c822-4e2f-b34c-fb4544455cbb",
+        "b7ff4e13-f88e-4154-aa40-c6e68af8583a",
+        "363aaba2-7694-48e4-b992-19aa68e1ee96",
+        "2d5f0323-6d51-4c42-b6b7-ab4ba8e00018"
+      ],
+      "duration_seconds": 0.119
+    },
+    {
+      "id": "U01",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U02",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U03",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U04",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U05",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U06",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U07",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U08",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U09",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U10",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U11",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U12",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U13",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U14",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "U15",
+      "category": "unsupported",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A01",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A02",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A03",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A04",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A05",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A06",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A07",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A08",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A09",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "A10",
+      "category": "adversarial",
+      "manual_review": "pending",
+      "duration_seconds": 0.0
+    }
+  ]
+}

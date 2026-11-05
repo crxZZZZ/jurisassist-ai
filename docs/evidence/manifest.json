@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "model": "qwen3:4b",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+  "source_files_sha256": {
+    "backend\\jurisassist\\ai.py": "5f4383bc6125e4b9c3f316e11326acd18f5f56993d992e2449bfa2fcaba07425",
+    "backend\\jurisassist\\retrieval.py": "30d48f963742ce01afc4ae8796e1167931151b504fb834dfcefed09b8e61f0ff",
+    "backend\\jurisassist\\prompts\\intent-v1.md": "5edfac320f336aa6c7bae67baea1be45b01c437cca6894ad34def4053c9a58c6",
+    "backend\\jurisassist\\prompts\\v1.md": "2e9cd5940e24633c35f9874d1f71ab104204eab10942e81f04d07138fe45fc35",
+    "backend\\jurisassist\\prompts\\v2.md": "22240969082ac67922e5931ec69e94e0eac68ec6f544586f3d3603e413c1fbb5",
+    "backend\\jurisassist\\worker.py": "cd856975e614d13c07791f2a51e93f6f89194ee8e4607e07fc71f004573fc37d",
+    "Dockerfile": "84a6aa7ee358762c053e010367876a2822b8633429981b4bd4ec83dda6406ab0"
+  },
+  "artifacts_sha256": {
+    "api-load_stats.csv": "609552eb5a84d1393a41c52cbb0afc0856bf3a1873448d0353e2fbfb36b1342d",
+    "model-chat-before-intent-gate.json": "d47124a6fb2b3a4eafd35a74381a69d8ddd24e282656c80aad018ef863ccecd3",
+    "model-chat-comparison.json": "96c42f93f8c104a7f80351b89f820622728dc5bef23ced8ec65b171e1f84976d",
+    "model-contract-smoke.json": "347bee8f49663c8c1910c8ad38329b3f8b14794739871d3f53265135f5ca2987",
+    "model-smoke.json": "406c0eaf9a8f9113e68ee1cf50153c58b007a193ceef9769bc3d156d5b66a126",
+    "retrieval-hybrid-v1.json": "728888bfff3204732038dcd3fc764e912539c629822aa88809dcacb16af41f41",
+    "retrieval-hybrid-v2.json": "6611aa0e6ca838654fa5edf96b92fde9296ebe094f4969e448c30fa2cea03004",
+    "retrieval-text-v1.json": "651a28529098c22079e6e589b3ba966fe7b6db5841e327f21ad054db8ba17b8c",
+    "retrieval-text-v2.json": "0276ef00b7cebb00f6ece7da5cef82a286d841348b9dfb2acc90047276b1cdf4",
+    "retrieval-vector-v1.json": "ac7d8700d464c5d05a7c80f4ee223e2e00f3d2b7fd64a8a8fe3a2eef5a17b28b",
+    "retrieval-vector-v2.json": "ff76344da849938cfe398dd0f9ac96b1742dfd98052531736ff182d2ab7e0f98",
+    "ui-chromium.png": "6628821f7a654f940e082515c95973827d06c67af1403005e0f178966d047434",
+    "ui-mobile.png": "a0a650f84103d50f82667fbdfc8cad584d7ffa75dae2073ff8f120eed497729a"
+  }
+}

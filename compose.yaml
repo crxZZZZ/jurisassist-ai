@@ -1,0 +1,66 @@
+name: jurisassist
+x-app: &app
+  build: .
+  env_file: .env
+  environment:
+    JURIS_DATABASE_URL: postgresql+psycopg://jurisassist:${POSTGRES_PASSWORD:?Copie .env.example para .env e defina POSTGRES_PASSWORD}@db:5432/jurisassist
+    JURIS_OLLAMA_URL: http://host.docker.internal:11434
+    JURIS_DATA_DIR: /app/data
+    JURIS_WORKER_METRICS_URL: http://worker:8001
+    JURIS_WORKER_METRICS_HOST: 0.0.0.0
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
+  volumes:
+    - app-data:/app/data
+  init: true
+  security_opt:
+    - no-new-privileges:true
+  cap_drop: [ALL]
+  restart: unless-stopped
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: jurisassist
+      POSTGRES_USER: jurisassist
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Defina POSTGRES_PASSWORD}
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    ports: ["127.0.0.1:5432:5432"]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U jurisassist -d jurisassist"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  migrate:
+    <<: *app
+    command: [sh, -c, "alembic upgrade head && jurisassist init-sources"]
+    depends_on:
+      db: {condition: service_healthy}
+    restart: "no"
+  api:
+    <<: *app
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+  worker:
+    <<: *app
+    command: [python, -m, jurisassist.worker]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+  web:
+    build: ./frontend
+    ports: ["127.0.0.1:8080:8080"]
+    depends_on:
+      api: {condition: service_healthy}
+    security_opt: ["no-new-privileges:true"]
+    restart: unless-stopped
+volumes:
+  pg-data:
+  app-data:

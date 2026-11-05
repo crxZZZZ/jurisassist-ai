@@ -1,0 +1,154 @@
+{
+  "seconds": 31.32,
+  "result": {
+    "summary": "Análise do contrato fictício para prestação de serviços de TI com foco em obrigações trabalhistas e prazos. O contrato define cláusulas específicas para execução, responsabilidades e encerramento. A análise se baseia em leis de trabalho temporário e terceirização (Lei nº 6.019/1974) e Código Civil.",
+    "findings": [
+      {
+        "title": "Obrigações trabalhistas da prestadora",
+        "detail": "A cláusula 5 do contrato menciona que a contratante não terá responsabilidade pelas obrigações trabalhistas da prestadora. No entanto, a Lei nº 6.019/1974 estabelece que a contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período em que ocorrer a prestação de serviços (Art. 5-A, § 5).",
+        "priority": "high",
+        "contract_chunk_id": "c85ebef6-043a-478e-b19f-e6f2caf9add7",
+        "quote": "DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO. Nenhum dado corresponde à Ilhaservice. CLÁUSULA 1 - PARTES E OBJETO A empresa fictícia Aurora Serviços Ltda., contratante, contrata Horizonte Tecnologia Ltda., prestadora, para serviços determinados de suporte técnico de primeiro nível e manutenção de estações. CLÁUSULA 2 - EXECUÇÃO E EQUIPE A prestadora contratará, remunerará e dirigirá os profissionais necessários à execução do serviço. A contratante poderá solicitar suporte diretamente aos profissionais, inclusive tarefas alheias ao objeto contratado. CLÁUSULA 3 - OBRIGAÇÕES A prestadora manterá os equipamentos e os registros de atendimento. A contratante fornecerá acesso às instalações e condições de segurança, higiene e salubridade no local dos serviços. CLÁUSULA 4 - PRAZO E PAGAMENTO O contrato vigorará por 12 meses a partir da assinatura. O valor mensal fictício será de R$ 12.000,00, pagável até o décimo dia do mês seguinte, mediante apresentação de nota fiscal. CLÁUSULA 5 -",
+        "citation_ids": [
+          "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+          "5ce13911-c409-438d-b017-557b5314470b"
+        ],
+        "checklist": "Verificar se a contratante está cumprindo as obrigações trabalhistas subsidiárias conforme Art. 5-A, § 5 da Lei nº 6.019/1974."
+      },
+      {
+        "title": "Condições de segurança e higiene",
+        "detail": "A cláusula 3 do contrato estabelece que a contratante fornecerá acesso às instalações e condições de segurança, higiene e salubridade no local dos serviços. Isso está alinhado com o Art. 9, § 1 da Lei nº 6.019/1974, que exige que a contratante garanta as condições de segurança, higiene e salubridade dos trabalhadores quando o trabalho for realizado em suas dependências.",
+        "priority": "medium",
+        "contract_chunk_id": "c85ebef6-043a-478e-b19f-e6f2caf9add7",
+        "quote": "DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO. Nenhum dado corresponde à Ilhaservice. CLÁUSULA 1 - PARTES E OBJETO A empresa fictícia Aurora Serviços Ltda., contratante, contrata Horizonte Tecnologia Ltda., prestadora, para serviços determinados de suporte técnico de primeiro nível e manutenção de estações. CLÁUSULA 2 - EXECUÇÃO E EQUIPE A prestadora contratará, remunerará e dirigirá os profissionais necessários à execução do serviço. A contratante poderá solicitar suporte diretamente aos profissionais, inclusive tarefas alheias ao objeto contratado. CLÁUSULA 3 - OBRIGAÇÕES A prestadora manterá os equipamentos e os registros de atendimento. A contratante fornecerá acesso às instalações e condições de segurança, higiene e salubridade no local dos serviços. CLÁUSULA 4 - PRAZO E PAGAMENTO O contrato vigorará por 12 meses a partir da assinatura. O valor mensal fictício será de R$ 12.000,00, pagável até o décimo dia do mês seguinte, mediante apresentação de nota fiscal. CLÁUSULA 5 -",
+        "citation_ids": [
+          "4c27f8e2-cb42-47e9-9c5e-87696c955ee0"
+        ],
+        "checklist": "Confirmar que as condições de segurança e higiene estão sendo mantidas conforme exigido pela lei."
+      },
+      {
+        "title": "Prazo de pagamento",
+        "detail": "O contrato estabelece que o valor mensal será pago até o décimo dia do mês seguinte, mediante apresentação de nota fiscal. Isso está em conformidade com o princípio do Código Civil (Art. 480) que permite ajustes nas obrigações para evitar onerosidade excessiva.",
+        "priority": "medium",
+        "contract_chunk_id": "c85ebef6-043a-478e-b19f-e6f2caf9add7",
+        "quote": "DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO. Nenhum dado corresponde à Ilhaservice. CLÁUSULA 1 - PARTES E OBJETO A empresa fictícia Aurora Serviços Ltda., contratante, contrata Horizonte Tecnologia Ltda., prestadora, para serviços determinados de suporte técnico de primeiro nível e manutenção de estações. CLÁUSULA 2 - EXECUÇÃO E EQUIPE A prestadora contratará, remunerará e dirigirá os profissionais necessários à execução do serviço. A contratante poderá solicitar suporte diretamente aos profissionais, inclusive tarefas alheias ao objeto contratado. CLÁUSULA 3 - OBRIGAÇÕES A prestadora manterá os equipamentos e os registros de atendimento. A contratante fornecerá acesso às instalações e condições de segurança, higiene e salubridade no local dos serviços. CLÁUSULA 4 - PRAZO E PAGAMENTO O contrato vigorará por 12 meses a partir da assinatura. O valor mensal fictício será de R$ 12.000,00, pagável até o décimo dia do mês seguinte, mediante apresentação de nota fiscal. CLÁUSULA 5 -",
+        "citation_ids": [
+          "5678fa43-aa96-4a85-aa55-75d9fff1db49"
+        ],
+        "checklist": "Verificar se o prazo de pagamento está dentro do limite estipulado para evitar ações por atraso."
+      },
+      {
+        "title": "Responsabilidade por encerramento",
+        "detail": "A cláusula 6 do contrato permite que qualquer parte solicite encerramento com aviso escrito de 30 dias. Isso está alinhado com a legislação, já que a Lei nº 6.019/1974 não estabelece prazos específicos para encerramento, mas o contrato define cláusulas claras para transição.",
+        "priority": "low",
+        "contract_chunk_id": "471ccfa4-5cc6-49bd-b62f-5ce6947112c9",
+        "quote": "RESPONSABILIDADES As partes declaram que a contratante jamais terá responsabilidade pelas obrigações trabalhistas da prestadora, em qualquer hipótese. CLÁUSULA 6 - ENCERRAMENTO Qualquer parte poderá solicitar encerramento mediante aviso escrito de 30 dias. As condições de transição e entrega de acessos deverão ser acordadas pelas partes.",
+        "citation_ids": [
+          "4c27f8e2-cb42-47e9-9c5e-87696c955ee0"
+        ],
+        "checklist": "Assegurar que o processo de encerramento segue os prazos estipulados no contrato."
+      }
+    ],
+    "obligations": [],
+    "deadlines": [],
+    "citations": [
+      {
+        "id": "c85ebef6-043a-478e-b19f-e6f2caf9add7",
+        "document_id": "93b2012a-edef-4e04-a4f4-829387e77611",
+        "title": "Prestação de serviços de TI · Exemplo fictício",
+        "locator": "Trecho 1",
+        "text": "DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO. Nenhum dado corresponde à Ilhaservice. CLÁUSULA 1 - PARTES E OBJETO A empresa fictícia Aurora Serviços Ltda., contratante, contrata Horizonte Tecnologia Ltda., prestadora, para serviços determinados de suporte técnico de primeiro nível e manutenção de estações. CLÁUSULA 2 - EXECUÇÃO E EQUIPE A prestadora contratará, remunerará e dirigirá os profissionais necessários à execução do serviço. A contratante poderá solicitar suporte diretamente aos profissionais, inclusive tarefas alheias ao objeto contratado. CLÁUSULA 3 - OBRIGAÇÕES A prestadora manterá os equipamentos e os registros de atendimento. A contratante fornecerá acesso às instalações e condições de segurança, higiene e salubridade no local dos serviços. CLÁUSULA 4 - PRAZO E PAGAMENTO O contrato vigorará por 12 meses a partir da assinatura. O valor mensal fictício será de R$ 12.000,00, pagável até o décimo dia do mês seguinte, mediante apresentação de nota fiscal. CLÁUSULA 5 -",
+        "kind": "contract",
+        "url": null,
+        "version": "ff0a60b94598",
+        "collected_at": "2026-10-23T15:31:43.333943",
+        "checked_at": null
+      },
+      {
+        "id": "471ccfa4-5cc6-49bd-b62f-5ce6947112c9",
+        "document_id": "93b2012a-edef-4e04-a4f4-829387e77611",
+        "title": "Prestação de serviços de TI · Exemplo fictício",
+        "locator": "Trecho 2",
+        "text": "RESPONSABILIDADES As partes declaram que a contratante jamais terá responsabilidade pelas obrigações trabalhistas da prestadora, em qualquer hipótese. CLÁUSULA 6 - ENCERRAMENTO Qualquer parte poderá solicitar encerramento mediante aviso escrito de 30 dias. As condições de transição e entrega de acessos deverão ser acordadas pelas partes.",
+        "kind": "contract",
+        "url": null,
+        "version": "ff0a60b94598",
+        "collected_at": "2026-10-23T15:31:43.333943",
+        "checked_at": null
+      },
+      {
+        "id": "075c0361-ccca-44d8-94fc-ccbdcb209bb7",
+        "document_id": "3d13d0a4-61ed-4b37-9295-98f71487b365",
+        "title": "Lei nº 6.019/1974 · Trabalho temporário e terceirização",
+        "locator": "Art. 10 · trecho 7",
+        "text": "Art. \r\n 10. Qualquer que seja o ramo da empresa tomadora de serviços, não existe \r\n vínculo de emprego entre ela e os trabalhadores contratados pelas empresas \r\n de trabalho temporário. (Redação dada pela Lei \r\n nº 13.429, de 2017)\n§ 7 o A contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período em que ocorrer o trabalho temporário, e o recolhimento das contribuições previdenciárias observará o disposto no art. 31 da Lei nº 8.212, de 24 de julho de 1991 . (Incluído pela Lei nº 13.429, de 2017)",
+        "kind": "law",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6019.htm",
+        "version": "eabab8e5ac41",
+        "collected_at": "2026-10-23T15:09:58.696465",
+        "checked_at": null
+      },
+      {
+        "id": "4c27f8e2-cb42-47e9-9c5e-87696c955ee0",
+        "document_id": "3d13d0a4-61ed-4b37-9295-98f71487b365",
+        "title": "Lei nº 6.019/1974 · Trabalho temporário e terceirização",
+        "locator": "Art. 9 · trecho 7",
+        "text": "Art. 9 o O \r\ncontrato celebrado pela empresa de trabalho temporário e a tomadora de serviços \r\nserá por escrito, ficará à disposição da autoridade fiscalizadora no \r\nestabelecimento da tomadora de serviços e conterá: (Redação dada pela Lei \r\n nº 13.429, de 2017)\n§ 1 o É responsabilidade da empresa contratante garantir as condições de segurança, higiene e salubridade dos trabalhadores, quando o trabalho for realizado em suas dependências ou em local por ela designado. (Incluído pela Lei nº 13.429, de 2017)",
+        "kind": "law",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6019.htm",
+        "version": "eabab8e5ac41",
+        "collected_at": "2026-10-23T15:09:58.696465",
+        "checked_at": null
+      },
+      {
+        "id": "5ce13911-c409-438d-b017-557b5314470b",
+        "document_id": "3d13d0a4-61ed-4b37-9295-98f71487b365",
+        "title": "Lei nº 6.019/1974 · Trabalho temporário e terceirização",
+        "locator": "Art. 5-A · trecho 6",
+        "text": "Art. 5 o -A. Contratante é a pessoa \r\nfísica ou jurídica que celebra contrato com empresa de prestação de serviços \r\nrelacionados a quaisquer de suas atividades, inclusive sua atividade principal. (Redação dada pela \r\n Lei nº 13.467, de 2017)\n§ 5 o A empresa contratante é subsidiariamente responsável pelas obrigações trabalhistas referentes ao período em que ocorrer a prestação de serviços, e o recolhimento das contribuições previdenciárias observará o disposto no art. 31 da Lei n o 8.212, de 24 de julho de 1991 . (Incluído pela Lei nº 13.429, de 2017)",
+        "kind": "law",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6019.htm",
+        "version": "eabab8e5ac41",
+        "collected_at": "2026-10-23T15:09:58.696465",
+        "checked_at": null
+      },
+      {
+        "id": "94e310e7-1cf6-4931-bdb3-0ddd8be9b80f",
+        "document_id": "3d13d0a4-61ed-4b37-9295-98f71487b365",
+        "title": "Lei nº 6.019/1974 · Trabalho temporário e terceirização",
+        "locator": "Art. 4-A · trecho 3",
+        "text": "Art. 4 o -A. Considera-se prestação \r\nde serviços a terceiros a transferência feita pela contratante da execução de \r\nquaisquer de suas atividades, inclusive sua atividade principal, à pessoa \r\njurídica de direito privado prestadora de serviços que possua capacidade \r\neconômica compatível com a sua execução. (Redação dada pela Lei \r\n nº 13.467, de 2017)\n§ 2 o Não se configura vínculo empregatício entre os trabalhadores, ou sócios das empresas prestadoras de serviços, qualquer que seja o seu ramo, e a empresa contratante. (Incluído pela Lei nº 13.429, de 2017)",
+        "kind": "law",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6019.htm",
+        "version": "eabab8e5ac41",
+        "collected_at": "2026-10-23T15:09:58.696465",
+        "checked_at": null
+      },
+      {
+        "id": "5678fa43-aa96-4a85-aa55-75d9fff1db49",
+        "document_id": "d2d6a8e4-b4c8-47ee-a42d-c52ff26f8214",
+        "title": "Código Civil · Contratos e prestação de serviços",
+        "locator": "Art. 480 · trecho 1",
+        "text": "Art. 480. Se no contrato as obrigações couberem a apenas uma das partes, poderá ela pleitear que a sua prestação seja reduzida, ou alterado o modo de executá-la, a fim de evitar a onerosidade excessiva.",
+        "kind": "law",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "version": "4408bed8560f",
+        "collected_at": "2026-10-23T15:10:02.004820",
+        "checked_at": null
+      }
+    ],
+    "coverage": {
+      "processed_chunks": 2,
+      "total_chunks": 2
+    },
+    "basis": {
+      "indexed_sources": 3,
+      "expected_sources": 3,
+      "pending_update": false,
+      "stale": true,
+      "warning": "Confira a data das fontes antes de usar a resposta."
+    },
+    "model": "qwen3:4b",
+    "prompt_version": "v2"
+  }
+}
